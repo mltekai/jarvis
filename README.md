@@ -39,7 +39,7 @@ A voice-based AI agent application with both graphical and command-line interfac
 
 1. **Clone/download the project**
    ```bash
-   cd /Users/namburi/work_poc/jarvis
+   cd /Users/user/checkout/jarvis
    ```
 
 2. **Create a virtual environment**
@@ -74,7 +74,7 @@ A voice-based AI agent application with both graphical and command-line interfac
 ### GUI Mode
 Start the application with the graphical interface:
 ```bash
-python voicebot.py
+python bot.py
 ```
 
 **Controls:**
@@ -86,7 +86,7 @@ python voicebot.py
 ### CLI Mode
 Run in command-line mode (automatically used if tkinter unavailable):
 ```bash
-python voicebot.py
+python bot.py
 ```
 
 **Instructions:**
@@ -99,7 +99,7 @@ python voicebot.py
 
 ```
 jarvis/
-├── voicebot.py          # Main application (GUI + CLI)
+├── bot.py          # Main application (GUI + CLI)
 ├── utils.py             # Audio utilities (recording, TTS, STT)
 ├── common/
 │   └── common_util.py   # Agent creation and management
